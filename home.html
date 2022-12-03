@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,500&family=Merriweather&family=Secular+One&family=Sofia&display=swap" rel="stylesheet">
+    <title>Home</title>
         <style>
+             
+
+            li  {
+                font-family: 'Josefin Sans', sans-serif;
+            }
+
             h2  { 
-                background-color:darksalmon;
+                background-color:rgb(163, 113, 121);
                
             }
             li{
                 padding-bottom: 10px;
+                
+            }
+            #summery li{
+                padding: 5px;
+               
+                list-style-type: lower-alpha;
+
+            }
+            ul li{
+                list-style-type: square;
+            }
+            h2 {
+                text-shadow: 5px 4px 8px rgb(89, 241, 122);
             }
             
         </style>
-    <title>Home</title>
+   
     </head>
     <body>
         <h2>   Career Objectives </h2>
@@ -20,7 +43,7 @@
             TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH
     </p>
         <h2>Professional Summery </h2>
-        <ul>
+        <ol id="summery">
             <li> Having 1 year experience in developing Single Page Web Application using Angular 8, HTML5,CSS3,Bootstrap 5,JavaScript, TypeScript </li>
             <li> experience working with version control system- GIT and GitHub  </li>
             <li> experience working with JIRA for user stories and bug tracking </li>
@@ -30,7 +53,8 @@
             <li> experience in using Chrome Devloper Tool for debugging and Troubleshooting the code  </li>
             <li> Knowledge of NodeJs </li>
             <li> Ability to work with people at all levels in the program</li>
-        </ul>
+        </ol>
+        
         
        
     </body>
